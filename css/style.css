@@ -301,3 +301,58 @@ header{
   gap: 9px;
   padding-bottom: 96px;
 }
+
+.q-heading{
+  display: flex;
+}
+
+.question-section h2{
+  margin-bottom: 24px;
+}
+
+.question-section p{
+  margin: 0 auto;
+  margin-bottom: 64px;
+  max-width: 714px;
+  color: var(--p-color);
+}
+
+.question-section{
+  text-align: center;
+  margin: 120px 0;
+}
+
+.q-heading{
+  color: var(--h-color);
+  display: flex;
+  align-items: center;
+  gap: 68px;
+}
+
+.q-card h5{
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.q-card p{
+  color: var(--p-color);
+  max-width: 504px;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.q-card{
+  text-align: start;
+  padding: 32px 35px;
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.question-card-box{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
