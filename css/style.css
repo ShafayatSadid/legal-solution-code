@@ -356,3 +356,122 @@ header{
   align-items: center;
   gap: 30px;
 }
+
+.contact-section h2{
+  margin-bottom: 24px;
+}
+
+.contact-section p{
+  color: var(--p-color);
+  max-width: 714px;
+  margin: 0 auto;
+}
+
+.contact-section{
+  text-align: center;
+}
+.c-card img{
+  width: 40px;
+  margin-bottom: 16px;
+}
+
+.c-card h5{
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--h-color);
+  margin-bottom: 16px;
+}
+
+.c-card p{
+  text-align: start;
+}
+
+.c-card{
+  padding: 65px 61px;
+  width: 285px;
+  height: 285px;
+  box-sizing: border-box;
+  background-color: #F3F3F3;
+}
+
+.c-card1{
+  border-right: 1px solid rgba(207, 207, 207, 1);
+  border-bottom: 1px solid rgba(207, 207, 207, 1);
+}
+
+.c-card4{
+  border-left: 1px solid rgba(207, 207, 207, 1);
+  border-top: 1px solid rgba(207, 207, 207, 1);
+}
+
+.contact-cards{
+  max-width: 570px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.button4{
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--p-color);
+  background-color: #F3F3F3;
+  padding: 23px 458px 23px 23px;
+  border: none;
+  border-radius: 8px;
+}
+
+.input{
+  background-color: #F3F3F3;
+  padding: 26px 0 23px 26px;
+  max-width: 570px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+}
+
+.input::placeholder{
+  font-size: 1rem;
+  color: var(--p-color);
+}
+
+#input4{
+  font-size: 1rem;
+  color: var(--p-color);
+  background-color: #F3F3F3;
+  padding: 25px 0 113px 25px;
+  width: 570px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+}
+
+#submit{
+  background-color: var(--btn-color);
+  color: var(--hf-h-color);
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 25px 0;
+  text-align: center;
+  width: 570px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-box2{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-form{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0 auto;
+  margin-top: 64px;
+  max-width: 1170px;
+  margin-bottom: 60px;
+}
