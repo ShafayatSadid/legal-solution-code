@@ -240,6 +240,7 @@ header{
   margin: 0 auto;
   border-radius: 8px;
   padding: 0 50px;
+  box-sizing: border-box;
 }
 
 .client-card img{
@@ -412,7 +413,7 @@ header{
 }
 
 
-.button4{
+/* .button4{
   font-size: 1rem;
   line-height: 26px;
   color: var(--p-color);
@@ -420,7 +421,7 @@ header{
   padding: 23px 458px 23px 23px;
   border: none;
   border-radius: 8px;
-}
+} */
 
 .input{
   background-color: #F3F3F3;
@@ -441,19 +442,21 @@ header{
   color: var(--p-color);
   background-color: #F3F3F3;
   padding: 25px 0 113px 25px;
-  width: 570px;
+  width: 100%;
+  max-width: 570px;
   box-sizing: border-box;
   border: none;
   border-radius: 8px;
 }
 
-#submit{
+.submit{
   background-color: var(--btn-color);
   color: var(--hf-h-color);
   font-size: 1.25rem;
   font-weight: 600;
   padding: 25px 0;
   text-align: center;
+  width: 100%;
   width: 570px;
   box-sizing: border-box;
   border: none;
@@ -463,6 +466,8 @@ header{
 .btn-box2{
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
   gap: 30px;
 }
 
@@ -474,4 +479,109 @@ header{
   margin-top: 64px;
   max-width: 1170px;
   margin-bottom: 60px;
+}
+
+
+footer h5{
+  font-family: "EB Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--hf-h-color);
+  margin-bottom: 47px;
+}
+
+footer p{
+  color: var(--h-p-color);
+}
+
+.logo2 h3{
+  color: var(--hf-h-color);
+}
+
+.logo2{
+  max-width: 159px;
+}
+
+.footer_logo p{
+  max-width: 259px;
+  margin-top: 32px;
+}
+
+.usefull_link ul li{
+  list-style: none;
+  color: #CFCFCF;
+}
+
+.usefull_link ul{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.address{
+  max-width: 216px;
+  margin-bottom: 16px;
+}
+
+.number{
+  max-width: 149px;
+  margin-bottom: 16px;
+}
+
+.email{
+  max-width: 132px;
+  margin-bottom: 16px;
+}
+
+.Subscribe p{
+  max-width: 217px;
+  margin-bottom: 24px;
+}
+
+.mail{
+  width: 254px;
+  background-color: #FFFFFF;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 23px 0;
+  padding-left: 33px;
+  box-sizing: border-box;
+}
+
+.mail::placeholder{
+  font-size: 1rem;
+  line-height: 26px;
+  color: var(--wbtn-color);
+}
+
+.send-icon{
+  width: 24px;
+}
+
+.email-btn{
+  padding: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: var(--btn-color);
+
+  position: relative;
+  left: -5px;
+}
+
+.subscribe-box{
+  display: flex;
+  align-items: center;
+  max-width: 325px;
+}
+
+footer{
+  background-color: #111111;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 81px;
+  padding-top: 120px;
+  padding-bottom: 108px;
+
 }

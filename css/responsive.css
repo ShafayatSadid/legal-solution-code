@@ -47,6 +47,50 @@
     width: 100%;
   }
 
+  .contact-cards{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .contact-form{
+    flex-direction: column;
+  }
+
+  .submit{
+    max-width: 300px;
+  }
+
+  footer{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_logo p{
+    margin: 0 auto;
+    margin-top: 32px;
+  } 
+
+  .logo2, .email{
+    margin: 0 auto;
+  }
+
+  .address, .number{
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+
+  .Subscribe p{
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+
+  .mail{
+    max-width: 254px;
+  }
+
+  .subscribe-box{
+    margin: 0 auto;
+  }
+
 
 
   
